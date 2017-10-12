@@ -1,0 +1,18 @@
+body { font-family: "Fira Sans", sans-serif;}
+
+table.idxtable, .idxtable th, .idxtable td {
+  border-bottom: 1px solid #C8C8C8;
+  border-collapse: collapse;
+  text-align:left;
+  padding: 10px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  font-size: 0.9em;
+}
+
+table.display {
+    width: 95%;
+    margin: 5;  /* <- works for me this way ****/
+}
+
+.top {display : inline}
