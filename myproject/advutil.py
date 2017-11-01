@@ -3,7 +3,7 @@ reload(util)
 from util import * #for testing
 updatepath('adviserinfo')
 
-from adviserinfo.formadv import *
+from formadv import *
 #need categories
 
 db = IapdDB()

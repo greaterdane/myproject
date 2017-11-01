@@ -1,7 +1,7 @@
 import os
 import sys
 import pandas as pd
-from stagelib.generic import merge_dicts
+from stagelib.generic import mergedicts
 
 def updatepath(projectname):
     thisdir = os.path.dirname(os.path.abspath(__name__))
@@ -31,4 +31,4 @@ class Project(object):
 
     def to_ajax(self, tbltype = 'idxtable', dtconfig = {}):
         __ = {'data' : getattr(self, "{}_df".format(tbltype)).values.tolist()}
-        return merge_dicts(__, dtconfig)
+        return mergedicts(__, dtconfig)
